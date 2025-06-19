@@ -25,6 +25,7 @@ python-dotenv
 numpy
 scikit-learn
 
+# for make text to vector
 sentence-transformers
 
 torch
