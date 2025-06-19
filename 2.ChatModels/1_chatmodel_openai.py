@@ -4,6 +4,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-model = ChatOpenAI(model='gpt-4', temperature=0)
+model = ChatOpenAI(model='gpt-4', temperature=2)
 result = model.invoke('What is the Capital of India?')
-print("Result:", result.content)
+print(result.content)
