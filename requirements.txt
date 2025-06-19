@@ -24,3 +24,13 @@ python-dotenv
 # Machine Learning Utilities
 numpy
 scikit-learn
+
+sentence-transformers
+
+torch
+
+tensorflow
+
+tf-keras
+
+hf_xet
