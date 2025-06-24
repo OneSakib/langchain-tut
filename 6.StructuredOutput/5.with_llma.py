@@ -6,7 +6,7 @@ from pydantic import BaseModel, Field
 load_dotenv()
 
 llm = HuggingFaceEndpoint(
-    repo_id="TinyLlama/TinyLlama-1.1B-Chat-v1.0", task="text-generation")
+    model="TinyLlama/TinyLlama-1.1B-Chat-v1.0", task="text-generation")
 model = ChatHuggingFace(llm=llm)
 
 # schema
