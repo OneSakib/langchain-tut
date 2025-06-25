@@ -7,8 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Defin the model
-llm = HuggingFaceEndpoint(
-    model="google/gemma-2-2b-it", task="text-generation")
+llm = HuggingFaceEndpoint(model="google/gemma-2-2b-it", task="text-generation")
 
 model = ChatHuggingFace(llm=llm)
 
